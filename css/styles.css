@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    background-image: url(../img/playFondo.png);
+}
+p{
+    margin-left: 250px;
+    font-size: 24px;
+}
+#container-principal{
+    margin-top: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opcion-bnt{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:  #4d045e;
+    border-radius: 6px;
+    border: 1px solid  #af42a8 ;
+    margin-left: 10px;
+
+}
+.opcion-bnt:hover{
+    color: #0c1317;
+    background-color: #ffffff;
+}
+.btn-salir{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:   #ff0000 ;
+    border-radius: 6px;
+    border: 1px solid  #2b1010 ;
+    margin-left: 10px;
+}
+.btn-salir:hover{
+    color: #0c1317;
+    background-color: #ffffff;
+}
